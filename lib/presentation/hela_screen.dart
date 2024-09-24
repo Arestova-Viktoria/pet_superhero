@@ -1,4 +1,3 @@
-import 'dart:async';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
@@ -7,7 +6,6 @@ import 'package:test_superhero/domain/bloc/hela_cubit.dart';
 import 'package:test_superhero/domain/bloc/locale_cubit.dart';
 import 'package:test_superhero/gen/assets.gen.dart';
 import 'package:test_superhero/injection.dart';
-import 'package:test_superhero/presentation/flash_start_button.dart';
 import 'package:test_superhero/presentation/superhero_widget.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
@@ -60,8 +58,6 @@ class _HelaScreenState extends State<HelaScreen> {
                       Assets.images.hela2.path,
                     ),
                     SuperheroWidget(superhero: superhero),
-                    const FlashStartButton(),
-                    const SizedBox(height: 16),
                   ],
                 ),
               ),
