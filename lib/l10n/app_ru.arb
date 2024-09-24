@@ -1,0 +1,71 @@
+{
+    "@@locale": "ru",
+    "application_name": "Супергерои",
+    "hela_screen_title": "Хела",
+    "id": "Номер",
+    "name": "Имя: {superheroName}",
+    "@name": {
+        "description": "A message with a single parameter",
+        "placeholders": {
+            "superheroName": {
+                "type": "String",
+                "example": "Боб"
+            }
+        }
+    },
+    "appearance": "Общие характеристики",
+    "gender": "Пол",
+    "race": "Раса",
+    "height": "Рост",
+    "weight": "Вес",
+    "eye_color": "Цвет глаз",
+    "hair_color": "Цвет волос",
+    "powerstats": "Показатели мощности",
+    "intelligence": "Интеллект",
+    "strength": "Сила",
+    "speed": "Скорость",
+    "durability": "Выносливость",
+    "power": "Мощность",
+    "combat": "Бой",
+    "tests": "Тесты",
+    "test_plural": "{count, plural, =1{{count} год} few{{count} года} other{{count} лет}}",
+    "@test_plural": {
+        "description": "A plural message",
+        "placeholders": {
+            "count": {
+                "type": "num",
+                "format": "compact"
+            }
+        }
+    },
+    "test_pronoun": "{gender, select, Male{он} Female{она} other{они}}",
+    "@test_pronoun": {
+        "description": "A gendered message",
+        "placeholders": {
+            "gender": {
+                "type": "String"
+            }
+        }
+    },
+    "test_money_format": "Деньги: {value}",
+    "@test_money_format": {
+        "description": "A message with a formatted int parameter",
+        "placeholders": {
+            "value": {
+                "type": "int",
+                "format": "simpleCurrency"
+            }
+        }
+    },
+    "date": "Дата: {date}",
+    "@date": {
+        "description": "A message with a date parameter",
+        "placeholders": {
+            "date": {
+                "type": "DateTime",
+                "format": "yMd"
+            }
+        }
+
+    }
+}

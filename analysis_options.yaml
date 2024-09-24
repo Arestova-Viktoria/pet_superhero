@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+
+
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - lib/genrated/
+    - lib/**.freezed.dart
+    - lib/**.g.dart
+    - lib/**.gr.dart
+    - lib/**.config.dart
+
+linter:
+
+
+
+
+
+
+
+
+
+
+  rules:
+
+
+
+
+

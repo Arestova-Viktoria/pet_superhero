@@ -1,0 +1,71 @@
+{
+    "@@locale": "it",
+    "application_name": "Supereroi",
+    "hela_screen_title": "Hela",
+    "id": "Numero",
+    "name": "Nome: {superheroName}",
+    "@name": {
+        "description": "A message with a single parameter",
+        "placeholders": {
+            "superheroName": {
+                "type": "String",
+                "example": "Bob"
+            }
+        }
+    },
+    "appearance": "Aspetto",
+    "gender": "Penere",
+    "race": "Razza",
+    "height": "Altezza",
+    "weight": "Peso",
+    "eye_color": "Сolore degli occhi",
+    "hair_color": "Colore dei capelli",
+    "powerstats": "Statistiche di potenza",
+    "intelligence": "Intelligenza",
+    "strength": "forza",
+    "speed": "Velocità",
+    "durability": "Durabilità",
+    "power": "Energia",
+    "combat": "Combattere",
+    "tests": "Prove",
+    "test_plural": "{count, plural, =1{{count} anno} few{{count} anni} other{{count} anni}}",
+    "@test_plural": {
+        "description": "A plural message",
+        "placeholders": {
+            "count": {
+                "type": "num",
+                "format": "compact"
+            }
+        }
+    },
+    "test_pronoun": "{gender, select, Male{Lui} Female{Lei} other{Essi}}",
+    "@test_pronoun": {
+        "description": "A gendered message",
+        "placeholders": {
+            "gender": {
+                "type": "String"
+            }
+        }
+    },
+    "test_money_format": "Soldi: {value}",
+    "@test_money_format": {
+        "description": "A message with a formatted int parameter",
+        "placeholders": {
+            "value": {
+                "type": "int",
+                "format": "simpleCurrency"
+            }
+        }
+    },
+    "date": "Data: {date}",
+    "@date": {
+        "description": "A message with a date parameter",
+        "placeholders": {
+            "date": {
+                "type": "DateTime",
+                "format": "yMd"
+            }
+        }
+
+    }
+}
