@@ -46,6 +46,7 @@ app.*.map.json
 # Code generated
 *.gen.dart
 *.g.dart
+*.gr.dart
 *.freezed.dart
 *.config.dart
 
